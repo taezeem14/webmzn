@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taezeem's Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f3f4f6;
+      color: #1f2937;
+    }
+
+    header {
+      background: linear-gradient(to right, #2563eb, #1e40af);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .site-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .site-card {
+      background: white;
+      border-radius: 16px;
+      width: 260px;
+      padding: 1.5rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+    }
+
+    .site-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .site-card h2 {
+      margin-bottom: 1rem;
+      color: #111827;
+    }
+
+    .site-card a {
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      background: #2563eb;
+      color: white;
+      border-radius: 30px;
+      font-weight: 600;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .site-card a:hover {
+      background: #1e40af;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e5e7eb;
+      font-size: 0.95rem;
+      color: #4b5563;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .site-card {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Taezeem's Dashboard</h1>
+    <p>All your projects at one place. Simple. Clean. Powerful.</p>
+  </header>
+
+  <div class="site-container">
+    <div class="site-card"><h2>Calculator</h2><a href="https://taezeem14.github.io/calc" target="_blank">Visit</a></div>
+    <div class="site-card"><h2>YuTiube</h2><a href="https://taezeem14.github.io/YuTiube" target="_blank">Visit</a></div>
+    <div class="site-card"><h2>New Year</h2><a href="https://taezeem14.github.io/NewYear" target="_blank">Visit</a></div>
+    <div class="site-card"><h2>About Me</h2><a href="https://taezeem14.github.io/Myself" target="_blank">Visit</a></div>
+    <div class="site-card"><h2>Code Decrypter</h2><a href="https://taezeem14.github.io/Hasher" target="_blank">Visit</a></div>
+    <div class="site-card"><h2>BOLIB</h2><a href="https://taezeem14.github.io/BOLIB" target="_blank">Visit</a></div>
+    <div class="site-card"><h2>About Me V2</h2><a href="https://taezeem14.github.io/About_Me-2" target="_blank">Visit</a></div>
+    <div class="site-card"><h2>About Me (Original)</h2><a href="https://taezeem14.github.io/About_Me" target="_blank">Visit</a></div>
+  </div>
+
+  <footer>© M. Taezeem Tariq Matta | All rights reserved</footer>
+</body>
+</html>
